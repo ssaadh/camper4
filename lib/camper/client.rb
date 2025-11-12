@@ -12,6 +12,10 @@ module Camper
 
     # Keep in alphabetical order
     include Authorization
+    include CardTableCardsAPI
+    include CardTableColumnsAPI
+    include CardTablesAPI
+    include CardTableStepsAPI
     include CommentsAPI
     include Logging
     include MessageBoardsAPI
